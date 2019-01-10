@@ -5,8 +5,6 @@ symchk /s srv\*c:\symbols\*https://msdl.microsoft.com/download/symbols c:\window
 
 set environment path \_NT_SYMBOL_PATH to srv*c:\symbols
 
-git clone https://github.com/houjingyi233/RpcView/
-
 cd RpcView
 
 mkdir Build\x64
